@@ -2,6 +2,7 @@
 
 ## A simple portfolio template
 
+**To view the demo:** [click here](https://ahbari-m.github.io/Portfolio_template/)
 
 ![pc](./demo/portfolio.gif)
 
