@@ -24,7 +24,7 @@ From your command line :
 
 ```
 # Clone the repository
-$ git clone https://github.com/...
+$ git clone https://github.com/Ahbari-M/Portfolio_template.git
 
 # Move into the repository
 $ cd portfolio
@@ -177,7 +177,7 @@ After that, you can modify the portfolio as you like.
 
 - add content in `<p>` tag.
 - Put your Social Media URL on each href attribute of the `<a>` tags.
-- You can delete or add as many` <a>` tags your want.
+- You can delete or add as many`<a>` tags your want.
 
 
 ```html 
@@ -194,3 +194,9 @@ After that, you can modify the portfolio as you like.
   </div>
 </footer>
 ```
+
+## image license
+
+the image is taken from :   [pexels](https://www.pexels.com/photo/looking-up-woman-wearing-blue-v-neck-top-1674752/)
+
+[license](https://www.pexels.com/license/)
