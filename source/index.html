@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- google font  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Rubik:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+  <script src="./src/index.js" defer></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+ 
+  <title>Resume</title>
+</head>
+<body>
+
+  <header class="primary-header flex container">
+    <div id="logo" class="fs-700 text-light ff-header" >
+      logo
+    </div>
+    <div>
+      <button aria-expeded="false" class="mobile-nav-toggler"><span class="sr-only">Menu</span>
+      </button>
+      <nav>
+          <ul class="primary-navigation button-indicators flex fs-200" data-visible="false">
+              <li class="nav-button" data-clicked ="true"><a class="uppercase  letter-spacing-2" href="#HOME">HOME</a></li>
+              <li class="nav-button" data-clicked ="false"><a class="uppercase  letter-spacing-2" href="#ABOUT">ABOUT ME</a></li>
+              <li class="nav-button" data-clicked ="false"><a class="uppercase  letter-spacing-2" href="#PROJECTS">PROJECTS</a></li>
+              <li class="nav-button" data-clicked ="false"><a class="uppercase  letter-spacing-2" href="#SERVICES">SERVICES</a></li>
+          </ul>
+      </nav>
+    </div>
+  </header>
+
+
+  <!-- **** HOME Section **** -->
+  <section id="HOME" class="grid-container bg-gradient" >
+    <div class="flow">
+      <!-- your title -->
+      <h1 class="ff-header fs-700 ">
+        HELLO, MY NAME IS <span class="text-sec">JULIA</span>
+      </h1>
+      <h2 class="fs-600">
+        I am <span class="text-sec"> Front-end </span> developer and <span class="text-sec"> UI/UX   </span>Designer
+      </h2>
+      <div class="flex social-media-icons " style="--gap: 2rem">
+        <!-- your social media links -->
+        <a href="#"><img src="./img/icon/github-square-brands.svg" alt=""></a>
+        <a href="#"><img src="./img/icon/linkedin-brands.svg" alt=""></a>
+        <a href="#"> <img src="./img/icon/behance-square-brands.svg" alt=""></a>
+      </div>
+    </div>
+
+    <!-- your image link -->
+    <div class="img-container"  style="align-self: end;" >
+      <img src="./img/profile.png" alt="">
+    </div>
+  </section>
+  <!-- ****END HOME Section **** -->
+
+
+  <!-- ****about Section **** -->
+  <section id="ABOUT" class="bg-white text-dark text-center flow pad-3">
+    <h1 class="title">ABOUT ME</h1>
+    <div class="grid-container flow">
+      <div class="img-container">
+        <img  src="./img/pexels-tony-jamesandersson-1674752.jpg" alt="">
+      </div>
+
+      <div class=" ff-normal  ">
+        <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad consequatur laudantium optio recusandae mollitia voluptate velit magni autem cupiditate. Aliquid dolorem sit laudantium fuga, autem natus magnam molestias consequuntur, non et accusantium? Quam consequuntur voluptatibus incidunt maiores consectetur harum ab minima, provident commodi distinctio corporis reprehenderit, officia sit deleniti excepturi molestias hic animi eos. Reiciendis facilis at voluptates possimus voluptatem.
+        </p>
+        <!-- add link to your resume -->
+        
+        <a
+        rel="noreferrer"
+        target="_blank"
+        class="btn"
+        href="img/resume.pdf"
+      >My Resume</a>
+      </div>
+    </div>
+  </section>
+  <!-- ****END about Section **** -->
+
+  <!-- ****projects Section **** -->
+  <section id="PROJECTS" class="bg-gradient text-center flow pad-3" style="--flow-space:6rem">
+    <h1 class="title"> PROJECTS </h1>
+    <!-- put your projects here  -->
+    <div class="grid-container">
+      <div class="flow" style="--flow-space:2rem">
+        <h1 class="text-accent ff-header">first project title</h1>
+        <p class="ff-normal"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste autem velit cumque dignissimos voluptate, sit ipsum atque totam cum doloribus similique, eos libero, natus vero molestias minima nesciunt laborum excepturi minus fuga debitis veritatis dolore iure asperiores? Non dignissimos neque laboriosam est nulla iusto reiciendis fuga maxime, nisi molestiae beatae error! Sequi consectetur vitae necessitatibus ipsum minus molestias mollitia nisi, eos harum unde cumque! Ducimus maxime dicta nisi minima sequi.
+        </p>
+      </div>
+      <div class="project-img bg-white" >
+        <!-- project's img -->
+      </div>
+    </div>
+    <div class="grid-container">
+      <div class="flow" style="--flow-space:2rem">
+        <h1 class="text-accent ff-header">second project title</h1>
+        <p class="ff-normal"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste autem velit cumque dignissimos voluptate, sit ipsum atque totam cum doloribus similique, eos libero, natus vero molestias minima nesciunt laborum excepturi minus fuga debitis veritatis dolore iure asperiores? Non dignissimos neque laboriosam est nulla iusto reiciendis fuga maxime, nisi molestiae beatae error! Sequi consectetur vitae necessitatibus ipsum minus molestias mollitia nisi, eos harum unde cumque! Ducimus maxime dicta nisi minima sequi.
+        </p>
+      </div>
+      <div class="project-img bg-white" >
+        <!-- project's img -->
+      </div>
+    </div>
+  </section>
+  <!-- ****END projects Section **** -->
+
+<!-- ****sercices Section **** -->
+  <section id="SERVICES" class="text-center text-dark bg-white pad-3  " >
+    <h1 class="title">SERVICES</h1>
+
+    <div class="cards flex" style="--gap:4rem ;justify-content: center;">
+      <div class="cards_item">
+        <img src="./img/icon/crop-solid.svg" alt="">
+        <h1 class="">first service title</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque modi ipsum cupiditate? In, temporibus dicta quia quae accusantium minus omnis!</p>
+      </div>
+      <div class="cards_item">
+        <div>
+          <img src="./img/icon/laptop-solid.svg" alt="">
+        </div>
+        <h1 class="">sec service title</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque modi ipsum cupiditate? In, temporibus dicta quia quae accusantium minus omnis!</p>
+      </div>
+      <div class=" cards_item">
+        <img src="./img/icon/window-restore-solid.svg" alt="">
+        <h1 class="">third service title</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque modi ipsum cupiditate? In, temporibus dicta quia quae accusantium minus omnis!</p>
+      </div>
+    </div>
+  </section>
+<!-- ****END sercices Section **** -->
+
+<footer class="bg-gradient grid-container">
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem est repellat at eaque architecto similique numquam cupiditate! <br><br><br>
+      &copy; copyright 2022 Mohammed AHBARI</p>
+    <div class="social-media-icons flex " style="--gap: 2rem">
+      <a href="#"><img src="./img/icon/github-square-brands.svg" alt=""></a>
+      <a href="#"><img src="./img/icon/linkedin-brands.svg" alt=""></a>
+      <a href="#"> <img src="./img/icon/behance-square-brands.svg" alt=""></a>
+    </div>
+    
+  </div>
+</footer>
+
+
+  <script src="./src/app.js"></script>
+</body>
+</body>
+</html>
